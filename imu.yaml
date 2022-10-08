@@ -1,0 +1,12 @@
+# imu.yaml for ZED2i
+
+#Accelerometers
+accelerometer_noise_density: 1.6e-03   #Noise density (continuous-time)
+accelerometer_random_walk:   2.509e-4  #Bias random walk
+
+#Gyroscopes
+gyroscope_noise_density:     1.2217304763960306e-4  #Noise density (continuous-time)
+gyroscope_random_walk:       3.398854185333757e-05  #Bias random walk
+
+rostopic:                    /zed2i/zed_node/imu/data_raw     #IMU ROS topic
+update_rate:                 400.0             #Hz (for discretization of the values above)

@@ -1,0 +1,30 @@
+Calibration results 
+====================
+Camera-system parameters:
+	cam0 (/zed2i/zed_node/right_raw/image_raw_color):
+	 type: <class 'aslam_cv.libaslam_cv_python.EquidistantDistortedPinholeCameraGeometry'>
+	 distortion: [    0.39966946     0.46353146   144.48847522 -2417.06166577] +- [0.03477123 0.60426411 0.09470205 0.01042813]
+	 projection: [1713.91438641 1731.04954291  307.32895208  250.96057784] +- [0.50091219 0.87957026 3.25426851 2.06066098]
+	 reprojection error: [-0.000341, -0.000213] +- [1.013732, 0.956983]
+
+	cam1 (/zed2i/zed_node/left_raw/image_raw_color):
+	 type: <class 'aslam_cv.libaslam_cv_python.EquidistantDistortedPinholeCameraGeometry'>
+	 distortion: [   0.206517      0.2957693    44.99442285 -359.45420148] +- [0.01936849 0.17706955 0.49900956 0.08315889]
+	 projection: [1738.79098912 1747.97547451  366.0246848   238.91066724] +- [1.02632685 0.78708899 0.72086017 2.67523907]
+	 reprojection error: [-0.000100, -0.000261] +- [0.945557, 0.858031]
+
+	baseline T_1_0:
+	 q: [0.00235067 0.01273895 0.00075027 0.99991581] +- [0.00157382 0.0022139  0.00017778]
+	 t: [ 0.13342292 -0.00002076  0.00493448] +- [0.00030146 0.00023496 0.00090939]
+
+
+
+Target configuration
+====================
+
+  Type: aprilgrid
+  Tags: 
+    Rows: 4
+    Cols: 3
+    Size: 0.055 [m]
+    Spacing 0.012485000000000001 [m]

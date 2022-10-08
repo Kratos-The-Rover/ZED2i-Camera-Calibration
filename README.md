@@ -4,6 +4,8 @@
 
 - [ZED SDK](https://www.stereolabs.com/developers/release)
 - [Kalibr](https://github.com/ethz-asl/kalibr)
+- [ZED ROS Wrapper](https://github.com/stereolabs/zed-ros-wrapper)
+- [CUDA](https://developer.nvidia.com/cuda-downloads)
 
 ## Calibration
 
@@ -45,5 +47,6 @@ rosrun kalibr kalibr_calibrate_imu_camera --bag zed2i.bag --cam camchain.yaml --
 
 ## References
 
+- [Getting started with ZED and ROS](https://www.stereolabs.com/docs/ros/)
 - [Kalibr Wiki](https://github.com/ethz-asl/kalibr/wiki/)
 - [ZED2i datasheet](https://www.stereolabs.com/assets/datasheets/zed-2i-datasheet-feb2022.pdf)
